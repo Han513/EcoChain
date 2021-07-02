@@ -1,0 +1,64 @@
+{
+  "name": "react-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@material-ui/styles": "^4.11.4",
+    "@mui-treasury/components": "^1.9.2",
+    "@mui-treasury/styles": "^1.13.1",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "antd": "^4.9.2",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.5.3",
+    "cors": "^2.8.5",
+    "firebase": "^8.6.2",
+    "mongoose": "^5.12.7",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "node-sass": "^4.14.1",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^17.0.1",
+    "react-feather": "^2.0.9",
+    "react-google-font-loader": "^1.1.0",
+    "react-icons": "^4.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-slick": "^0.28.1",
+    "reactstrap": "^8.7.1",
+    "slick-carousel": "^1.8.1",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start-flask": "cd Flask && flask run --no-debugger",
+    "test-flask": "cd Flask && flask test",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://127.0.0.1:5000"
+}
