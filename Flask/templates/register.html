@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>This is register view！</title>
+  </head>
+
+  <body>
+    <div class="title">
+      <h1>Welcome to the Energy Exchange！Let's make a account！</h1>
+    </div>
+    <div class="input">
+      <form action="{{ url_for('register') }}" method="POST">
+        <div>
+          <label class="label1">帳號：</label>
+          <input class="input" type="text" name="username" placeholder="請在此輸入帳號"/><br></br>
+        </div>
+        <div>
+          <label class="label2">密碼：</label>
+          <input class="input" type="password" name="password" placeholder="請在此輸入密碼"/><br></br>
+        </div>
+        <div>
+          <label class="label2">E-mail：</label>
+          <input class="input" type="text" name="email" placeholder="請輸入電子郵件"/><br></br>
+        </div>
+        <button type="submit" name="send" value="register">register</button>
+      </form>
+    </div>
+  </body>
+</html>
